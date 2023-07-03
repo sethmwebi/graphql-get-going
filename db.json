@@ -1,0 +1,400 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "name": "Douglas Adams"
+    },
+    {
+      "name": "Ursula K. Le Guin",
+      "id": 2
+    },
+    {
+      "name": "Noah Yuval Harari",
+      "id": 3
+    },
+    {
+      "name": "Nassim Taleb",
+      "id": 4
+    },
+    {
+      "name": "Eric Hoffer",
+      "id": 5
+    },
+    {
+      "name": "Robert Greene",
+      "id": 6
+    },
+    {
+      "name": "David Graeber",
+      "id": 7
+    },
+    {
+      "name": "Stephen J. Dubner",
+      "id": 8
+    },
+    {
+      "name": "Steven Levitt",
+      "id": 9
+    },
+    {
+      "name": "Francis Fukuyama",
+      "id": 10
+    },
+    {
+      "name": "Graham Hancock",
+      "id": 11
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "cover": "http://covers.openlibrary.org/b/isbn/9780671461492-L.jpg",
+      "summary": "After a Vogon constructor fleet destroys Earth to make way for a hyperspace bypass, the last surviving man, Arthur Dent, embarks on an interstellar adventure with his friend Ford Prefect (who, apparently, was an alien all along).",
+      "title": "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+      "cover": "http://covers.openlibrary.org/b/isbn/038051284X-L.jpg",
+      "title": "The Dispossessed",
+      "id": 2
+    },
+    {
+      "cover": "http://covers.openlibrary.org/b/isbn/9781529034530-L.jpg",
+      "genre": "SCIENCE_FICTION",
+      "title": "The Restaurant at the End of the Universe",
+      "id": 3
+    },
+    {
+      "cover": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.iAwYvOOKAeVEv8tk9rZ2fwHaKZ%26pid%3DApi&f=1&ipt=4a4249982b75b18946f237b566635f4ddd7f8972592b5709bf3e238196efb5b7&ipo=images",
+      "title": "Sapiens",
+      "id": 4
+    },
+    {
+      "cover": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.jYBlJuLIiRmtvI7wHf-1XAHaLZ%26pid%3DApi&f=1&ipt=db3018c18f1087f7d471881d0974c7dc01445b7f864d34f9bbf0af73b373b8b9&ipo=images",
+      "title": "Antifragile",
+      "id": 5
+    },
+    {
+      "cover": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.vfHZM2qWseqpEhzieTrAzQHaLI%26pid%3DApi&f=1&ipt=a0f91dd0e80a5b8d368cbea34c569743869ea5f944f1f566a210c56dd1f1b246&ipo=images",
+      "title": "The True Believer",
+      "id": 6
+    },
+    {
+      "cover": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.reisa3Eg8YtNdXDru1qZAAHaLZ%26pid%3DApi&f=1&ipt=3f7cff0e2ffbc79f0fac88190c8e03ac888d992248f80e59bbaed842934f251e&ipo=images",
+      "title": "Laws of Human Nature",
+      "id": 7
+    },
+    {
+      "cover": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.E87dydH26biwHPTOzkXWlgAAAA%26pid%3DApi&f=1&ipt=53d80e9518cf841162e0288532865e9699d6c5e984c9d2a77d18fcb17506e388&ipo=images",
+      "title": "Debt: The First 5000 years",
+      "id": 8
+    },
+    {
+      "cover": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.FiCnPtVQfZpIvWjS2vU2TAHaK9%26pid%3DApi&f=1&ipt=fc2abb4cb87ee56e03d05b0ea5ea17850365cb68e427c3c343c35d31f9ff68f1&ipo=images",
+      "title": "Freakonomics",
+      "id": 9
+    },
+    {
+      "cover": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.FhEmFh_EG9KVseX-_GqrhwHaKI%26pid%3DApi&f=1&ipt=34184ed09b7282b32f54ee7553eba11bf06cb736ebd4e91a29faca7a7ea9efb9&ipo=images",
+      "title": "Origins of Political Order",
+      "id": 10
+    },
+    {
+      "cover": "https://m.media-amazon.com/images/P/0517887290.01._SCLZZZZZZZ_SX500_.jpg",
+      "genre": "NON_FICTION",
+      "title": "Fingertips of the Gods",
+      "id": 11
+    }
+  ],
+  "bookAuthors": [
+    {
+      "id": 1,
+      "authorId": 1,
+      "bookId": 1
+    },
+    {
+      "authorId": 2,
+      "bookId": 2,
+      "id": 2
+    },
+    {
+      "authorId": 1,
+      "bookId": 3,
+      "id": 3
+    },
+    {
+      "authorId": 3,
+      "bookId": 4,
+      "id": 4
+    },
+    {
+      "authorId": 4,
+      "bookId": 5,
+      "id": 5
+    },
+    {
+      "authorId": 5,
+      "bookId": 6,
+      "id": 6
+    },
+    {
+      "authorId": 6,
+      "bookId": 7,
+      "id": 7
+    },
+    {
+      "authorId": 7,
+      "bookId": 8,
+      "id": 8
+    },
+    {
+      "authorId": 8,
+      "bookId": 9,
+      "id": 9
+    },
+    {
+      "authorId": 9,
+      "bookId": 9,
+      "id": 10
+    },
+    {
+      "authorId": 10,
+      "bookId": 10,
+      "id": 11
+    },
+    {
+      "authorId": 11,
+      "bookId": 11,
+      "id": 12
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Is there anything more dangerous than dissatisfied and irresponsible gods who don't know what they want?",
+      "bookId": 4,
+      "createdAt": "2023-01-13T19:59:42.689Z",
+      "rating": 5,
+      "userId": 4,
+      "id": 3
+    },
+    {
+      "text": "This book had changed my life, the way I think, the way I precept the world. I think it should be an obligatory book for everyone on this planet.",
+      "bookId": 4,
+      "createdAt": "2023-01-13T20:01:37.292Z",
+      "rating": 5,
+      "userId": 5,
+      "id": 4
+    },
+    {
+      "text": "Great book! I listened to the audio and now I'll probably buy a hard copy to go back through and take notes.",
+      "bookId": 5,
+      "createdAt": "2023-01-13T20:05:56.938Z",
+      "rating": 4,
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "text": "Hatred is the most accessible and comprehensive of all the unifying agents. Mass movements can rise and spread without belief in a god, but never without a belief in a devil",
+      "bookId": 6,
+      "createdAt": "2023-01-13T20:09:48.276Z",
+      "rating": 4,
+      "userId": 2,
+      "id": 9
+    },
+    {
+      "text": "I haven't yet read the other reviews of this, as I didn't want my own to be influenced, but I would imagine other reviewers will have commented on the author's background. He had very little formal education, but seems to have been an extraordinarily perceptive and articulate person.",
+      "bookId": 6,
+      "createdAt": "2023-01-13T20:11:10.409Z",
+      "rating": 5,
+      "userId": 5,
+      "id": 10
+    },
+    {
+      "text": "Just hit repeat once you’re finished it.",
+      "bookId": 7,
+      "createdAt": "2023-01-14T16:20:30.425Z",
+      "rating": 5,
+      "userId": 2,
+      "id": 12
+    },
+    {
+      "text": "One of the few books I had to put down. The author simultaneously expresses that we need to hide our real self, wear masks, and essentially manipulate others while also reducing historical figures to one-dimensional jungian caricatures for critique. I'm not sure if he is aware of the hypocritical nature of what he is saying, addresses it towards the end of the book or is just the perfect example of the duality of mind in criticizing others while justifying ones own acts.",
+      "bookId": 7,
+      "createdAt": "2023-01-14T16:24:45.774Z",
+      "rating": 1,
+      "userId": 4,
+      "id": 14
+    },
+    {
+      "text": "I used to hold a much higher opinion of Greene. I read The 33 Strategies of War when I was 16, and found it enthralling and enlightening. Greene provides examples in story form to open his chapters, and from there expounds on human nature. However, I now find his modus operandi to be rather stale and formulaic. Bear with me then, as I show how to write a Robert Green book: first, select a number between 10 and 60, second, select a strongly worded title, preferably including 'law' in it, and top it off with colored geometric shapes on the cover. Now to the actual writing: open every chapter with an overly simplified, poorly researched, yet interesting historical anecdote, and then proceed to force it fit into your preconceived lesson for this chapter, with plenty of arm chair psychology and rambling with certainty. Obviously I'm being tongue in cheek, especially as the stories Greene tells are certainly his strong points, but I don't think Greene put in the requisite leg work to make this book anywhere near as good as it should have been, and I find that disappointing.",
+      "bookId": 7,
+      "createdAt": "2023-01-14T16:26:49.005Z",
+      "rating": 2,
+      "userId": 5,
+      "id": 15
+    },
+    {
+      "text": "This is my second time reading Debt, and it's very clear that I had absolutely no clue what I was talking about the first time around. Re-reading my review from last time, I absolutely missed the point.",
+      "bookId": 8,
+      "createdAt": "2023-01-14T16:37:20.871Z",
+      "rating": 5,
+      "userId": 2,
+      "id": 17
+    },
+    {
+      "text": "I won't deny that this is a very interesting, compelling and thought-provoking book. Even for someone like me whose general response to economics is *snore*. And it's mainly because Freakonomics is not really about economics, but involves applying statistical analysis to many social issues and questions. ",
+      "bookId": 9,
+      "createdAt": "2023-01-14T16:41:10.521Z",
+      "rating": 3,
+      "userId": 2,
+      "id": 19
+    },
+    {
+      "text": "I lost all faith in this book when it tried to teach you how to be a “perfect parent” and came to the conclusion that “it isn’t so much a matter of what you do as a parent; it’s who you are.” He claims that your socioeconomic status determines whether or not you will be a good parent. One of his biggest points in this chapter is that nothing a parent does (for example, taking their child to museums or reading books to their toddler) matters in the slightest. The only data he uses to draw this conclusion is a collection of test scores. Obviously a high test score does not equal a well-raised, happy child in a healthy family environment. And of course what you do as a parent matters. You can’t totally neglect your child and then claim you’re a perfect parent because of your socioeconomic status. You also cannot determine what makes a good parent based on children’s test scores alone.",
+      "bookId": 9,
+      "createdAt": "2023-01-14T16:42:58.254Z",
+      "rating": 1,
+      "userId": 4,
+      "id": 21
+    },
+    {
+      "text": "The best Civilization V based fan fiction ever! No seriously. I can't read a chapter in this book without thinking of Civ. games I have played. If you love Civ. you will love this book.",
+      "bookId": 10,
+      "createdAt": "2023-01-14T16:44:48.871Z",
+      "rating": 4,
+      "userId": 4,
+      "id": 22
+    },
+    {
+      "text": "Easy to read, informative, and well-structured. Enjoyed reading it very much and will be taking many new ideas and insights with me into the new year, 2019 <3",
+      "bookId": 10,
+      "createdAt": "2023-01-14T16:47:53.612Z",
+      "rating": 4,
+      "userId": 5,
+      "id": 25
+    },
+    {
+      "text": "Nassim Taleb is an intellectual.",
+      "bookId": 5,
+      "createdAt": "2023-01-16T17:30:09.723Z",
+      "rating": 5,
+      "userId": 4,
+      "id": 26
+    },
+    {
+      "text": "best book on human behaviour",
+      "bookId": 7,
+      "createdAt": "2023-06-28T12:29:39.986Z",
+      "rating": 3,
+      "userId": 8,
+      "id": 27
+    },
+    {
+      "text": "best book ever",
+      "bookId": 9,
+      "createdAt": "2023-07-02T14:57:41.441Z",
+      "rating": 5,
+      "userId": 8,
+      "id": 28
+    },
+    {
+      "text": "nice one",
+      "bookId": 11,
+      "createdAt": "2023-07-02T15:32:16.724Z",
+      "rating": 5,
+      "userId": 8,
+      "id": 29
+    }
+  ],
+  "users": [
+    {
+      "email": "jo@email.com",
+      "name": "Jo March",
+      "username": "bookworm68",
+      "id": 2
+    },
+    {
+      "id": 4,
+      "email": "millicentmamu@email.com",
+      "name": "Millicent Ogutu",
+      "username": "mamu"
+    },
+    {
+      "id": 5,
+      "email": "faithondieki@email.com",
+      "name": "Faith Ondieki",
+      "username": "faith"
+    },
+    {
+      "email": "scout@email.com",
+      "name": "Scout Finch",
+      "password": "8141097852e419288a19b6bda5e01ae7:303edc1c589eef26c593210b2336faa06f0c49e9993dd74f423b538f82e9741a87d91ef116d39128395d4a742c08a6978fb2497d47e43e7590a670179807f1be",
+      "username": "mockingbird60",
+      "id": 7
+    },
+    {
+      "email": "jessogeto@email.com",
+      "name": "Jessica Ogeto",
+      "password": "2afcef377d5b20d12a40bdb30271d1ea:f804c33220b0b102c2f4d7cd1503d3956aaae767bf0a160e133245120b92de523a27e47fd7fe1cb2a497f7371c3fba68117d3b49cf57c8adbdd61037a45b711b",
+      "username": "jess",
+      "id": 8
+    },
+    {
+      "email": "prudenceuchi@email.com",
+      "name": "Prudence Uchi",
+      "password": "e44a19ad7cc4f83ff9191181e40ff604:fd336aa8f89b28dab241991bfd2cc1564d93fd6b82694f08a69dacf766c693c7a5bc91e836aa42e59b3746e28562232bf544eaa216a82b452209420dae8bd1a3",
+      "username": "uchi",
+      "id": 9
+    },
+    {
+      "email": "sethmwebi@email.com",
+      "name": "seth mwebi",
+      "password": "e7bddfc71186e5112f190969f59f1d89:583e95513d408e02f626037ef0febf684b3517b2c128ea46e1350b680f978bb80d1db3774ddeef4abdd6db4c0537d4a71ba60a4d1e19353f1c017f5212a7484c",
+      "username": "mwebi",
+      "id": 10
+    }
+  ],
+  "userBooks": [
+    {
+      "bookId": 4,
+      "createdAt": "2023-06-25T12:55:26.263Z",
+      "userId": 10,
+      "id": 2
+    },
+    {
+      "bookId": 5,
+      "createdAt": "2023-06-27T12:25:02.527Z",
+      "userId": 8,
+      "id": 6
+    },
+    {
+      "bookId": 3,
+      "createdAt": "2023-06-27T12:46:31.700Z",
+      "userId": 10,
+      "id": 7
+    },
+    {
+      "bookId": 2,
+      "createdAt": "2023-06-27T12:46:43.704Z",
+      "userId": 10,
+      "id": 8
+    },
+    {
+      "bookId": 5,
+      "createdAt": "2023-06-27T12:54:52.716Z",
+      "userId": 10,
+      "id": 9
+    },
+    {
+      "bookId": 8,
+      "createdAt": "2023-06-28T12:33:36.109Z",
+      "userId": 8,
+      "id": 10
+    },
+    {
+      "bookId": 11,
+      "createdAt": "2023-06-30T15:39:26.687Z",
+      "userId": 8,
+      "id": 11
+    }
+  ]
+}
